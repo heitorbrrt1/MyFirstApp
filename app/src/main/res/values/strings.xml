@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+
+    <!-- Tela 1 -->
+    <string name="ac_name_1">Tela 1</string>
+    <string name="forw_btt_t1">Botão avançar tela 1</string>
+    <string name="botao_para_trocar_tema">botao para trocar tema</string>
+
+    <!-- Tela 2 -->
+    <string name="ac_name_2">Tela 2</string>
+    <string name="prev_btt_t2">Botão voltar da tela 2</string>
+    <string name="forw_btt_t2">Botão avançar da tela 2</string>
+
+    <!-- Tela 3 -->
+    <string name="ac_name_3">Tela 3</string>
+    <string name="prev_btt_t3">Botão voltar da tela 3</string>
+    <string name="forw_btt_t3">Botão avançar da tela 3</string>
+
+    <!-- Tela 4 -->
+    <string name="ac_name_4">Tela 4</string>
+    <string name="prev_btt_t4">Botão voltar da tela 4</string>
+    <string name="forw_btt_t4">Botão avançar da tela 4</string>
+    <string name="formTitle">Formulário de Cadastro</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="salvar">Salvar</string>
+</resources>

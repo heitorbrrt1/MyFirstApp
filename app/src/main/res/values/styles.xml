@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Tema Monocromático -->
+    <style name="Theme.App.Monochromatic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0D47A1</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#42A5F5</item>
+        <item name="android:colorBackground">#E3F2FD</item>
+    </style>
+
+    <!-- Tema Triádico -->
+    <style name="Theme.App.Triadic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorPrimaryDark">#E53935</item>
+        <item name="colorAccent">#FDD835</item>
+        <item name="android:colorBackground">#E1F5FE</item>
+    </style>
+
+    <!-- Tema Quadrático -->
+    <style name="Theme.App.Quadratic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorPrimaryDark">#E53935</item>
+        <item name="colorAccent">#43A047</item>
+        <item name="android:colorBackground">#FB8C00</item>
+    </style>
+
+</resources>
