@@ -7,11 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintVertical_bias="0.26" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="63dp"
-        android:background="?attr/colorPrimary"
+        android:background="?attr/colorAccent"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,79 +64,113 @@
         />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
         android:text="@string/formTitle"
-        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <EditText
-        android:id="@+id/editTextNome"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:id="@+id/editTextText2"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
         android:autofillHints=""
+        android:ems="10"
         android:hint="@string/nome"
-        android:inputType="textPersonName"
+        android:inputType="text"
+
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.648"
-        app:layout_constraintMarginEnd="16dp"
-        app:layout_constraintMarginStart="16dp"
-        app:layout_constraintMarginTop="32dp"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.063" />
 
     <EditText
-        android:id="@+id/editTextSenha"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
         android:autofillHints=""
-        android:hint="@string/senha"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.648"
-        app:layout_constraintMarginEnd="16dp"
-        app:layout_constraintMarginStart="16dp"
-        app:layout_constraintMarginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:autofillHints=""
+        android:ems="10"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.648"
-        app:layout_constraintMarginEnd="16dp"
-        app:layout_constraintMarginStart="16dp"
-        app:layout_constraintMarginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNome"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="220dp"
+        android:layout_height="48sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.002" />
 
     <Button
-        android:id="@+id/buttonSalvar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/salvar"
+        android:id="@+id/button42"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintMarginTop="32dp"
+        app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextSenha"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintVertical_bias="0.52" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

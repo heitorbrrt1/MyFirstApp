@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         val buttonForward = findViewById<ImageButton>(R.id.button_forward)
+
         buttonForward.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
 

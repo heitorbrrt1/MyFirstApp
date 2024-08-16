@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimaryMonochromatic">#6ac9ff</color>
+    <color name="colorPrimaryDarkMonochromatic">#31b3f2</color>
+    <color name="colorAccentMonochromatic">#0193cd</color>
+    <color name="colorBackgroundMonochromatic">#0086bc</color>
+
+    <color name="colorPrimaryTriadic">#37ACC8</color>
+    <color name="colorPrimaryDarkTriadic">#000000</color>
+    <color name="colorAccentTriadic">#C837AC</color>
+    <color name="colorBackgroundTriadic">#ACC837</color>
+
+    <color name="colorPrimaryQuadratic">#DF2720</color>
+    <color name="colorPrimaryDarkQuadratic">#78DF20</color>
+    <color name="colorAccentQuadratic">#20D8DF</color>
+    <color name="colorBackgroundQuadratic">#8720DF</color>
+
+    <!-- Outras cores do seu aplicativo -->
 </resources>

@@ -32,4 +32,6 @@
     <string name="senha">Senha</string>
     <string name="email">Email</string>
     <string name="salvar">Salvar</string>
+    <string name="telefone">Telefone</string>
+    <string name="button">Button</string>
 </resources>

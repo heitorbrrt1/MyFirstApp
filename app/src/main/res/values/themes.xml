@@ -1,9 +1,27 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyFirstApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+
+    <!-- Tema Monocromático -->
+    <style name="Theme.App.Monochromatic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMonochromatic</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic</item>
+        <item name="colorAccent">@color/colorAccentMonochromatic</item>
+        <item name="android:colorBackground">@color/colorBackgroundMonochromatic</item>
     </style>
 
-    <style name="Theme.MyFirstApp" parent="Base.Theme.MyFirstApp" />
+    <!-- Tema Triádico -->
+    <style name="Theme.App.Triadic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTriadic</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTriadic</item>
+        <item name="colorAccent">@color/colorAccentTriadic</item>
+        <item name="android:colorBackground">@color/colorBackgroundTriadic</item>
+    </style>
+
+    <!-- Tema Quadrático -->
+    <style name="Theme.App.Quadratic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryQuadratic</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkQuadratic</item>
+        <item name="colorAccent">@color/colorAccentQuadratic</item>
+        <item name="android:colorBackground">@color/colorBackgroundQuadratic</item>
+    </style>
+
 </resources>
