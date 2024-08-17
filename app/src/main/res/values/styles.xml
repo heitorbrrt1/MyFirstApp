@@ -1,16 +1,24 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!-- Tema Base -->
     <style name="Theme.App.Base" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
     </style>
 
-    <!-- Tema Monocromático -->
-    <style name="Theme.App.Monocromatico" parent="Theme.App.Base">
-        <item name="colorPrimary">@color/colorPrimaryMonochromatic</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic</item>
-        <item name="colorAccent">@color/colorAccentMonochromatic</item>
-        <item name="android:colorBackground">@color/colorBackgroundMonochromatic</item>
+    <!-- Tema Monocromático 1-->
+    <style name="Theme.App.Monocromatic1" parent="Theme.App.Base">
+        <item name="colorPrimary">@color/colorPrimaryMonochromatic1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic1</item>
+        <item name="colorAccent">@color/colorAccentMonochromatic1</item>
+        <item name="android:colorBackground">@color/colorBackgroundMonochromatic1</item>
+    </style>
+
+    <!-- Tema Monocromático 2-->
+    <style name="Theme.App.Monocromatic2" parent="Theme.App.Base">
+        <item name="colorPrimary">@color/colorPrimaryMonochromatic2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic2</item>
+        <item name="colorAccent">@color/colorAccentMonochromatic2</item>
+        <item name="android:colorBackground">@color/colorBackgroundMonochromatic2</item>
     </style>
 
     <!-- Tema Triádico -->
@@ -30,5 +38,5 @@
     </style>
 
     <!-- Tema Padrão do Aplicativo -->
-    <style name="Theme.PdmNavigation" parent="Theme.App.Monochromatic" />
+    <style name="Theme.PdmNavigation" parent="Theme.App.Monocromatic1" />
 </resources>

@@ -2,6 +2,7 @@ package com.example.myfirstapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
@@ -14,6 +15,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+        val button12 = findViewById<Button>(R.id.button11)
+        button12.backgroundTintList = getColorStateList(R.color.colorPrimaryMonochromatic1)
+        button12.setTextColor(getColor(R.color.white))
+
+        val button11 = findViewById<Button>(R.id.button12)
+        button11.backgroundTintList = getColorStateList(R.color.colorAccentMonochromatic1)
+        button11.setTextColor(getColor(R.color.white))
+
         val buttonForward = findViewById<ImageButton>(R.id.button_forward)
 
         buttonForward.setOnClickListener {
@@ -28,4 +38,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent, options.toBundle())
         }
     }
+
 }

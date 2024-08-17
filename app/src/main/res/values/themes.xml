@@ -1,11 +1,19 @@
 <resources>
 
-    <!-- Tema Monocromático -->
-    <style name="Theme.App.Monochromatic" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimaryMonochromatic</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic</item>
-        <item name="colorAccent">@color/colorAccentMonochromatic</item>
-        <item name="android:colorBackground">@color/colorBackgroundMonochromatic</item>
+    <!-- Tema Monocromático 1-->
+    <style name="Theme.App.Monocromatico" parent="Theme.App.Base">
+        <item name="colorPrimary">@color/colorPrimaryMonochromatic1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic1</item>
+        <item name="colorAccent">@color/colorAccentMonochromatic1</item>
+        <item name="android:colorBackground">@color/colorBackgroundMonochromatic1</item>
+    </style>
+
+    <!-- Tema Monocromático 2-->
+    <style name="Theme.App.Monocromatico2" parent="Theme.App.Base">
+        <item name="colorPrimary">@color/colorPrimaryMonochromatic2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonochromatic2</item>
+        <item name="colorAccent">@color/colorAccentMonochromatic2</item>
+        <item name="android:colorBackground">@color/colorBackgroundMonochromatic2</item>
     </style>
 
     <!-- Tema Triádico -->
@@ -23,5 +31,4 @@
         <item name="colorAccent">@color/colorAccentQuadratic</item>
         <item name="android:colorBackground">@color/colorBackgroundQuadratic</item>
     </style>
-
 </resources>

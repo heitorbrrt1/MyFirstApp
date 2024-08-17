@@ -3,10 +3,15 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 
-    <color name="colorPrimaryMonochromatic">#6ac9ff</color>
-    <color name="colorPrimaryDarkMonochromatic">#31b3f2</color>
-    <color name="colorAccentMonochromatic">#0193cd</color>
-    <color name="colorBackgroundMonochromatic">#0086bc</color>
+    <color name="colorPrimaryMonochromatic1">#B0B0B0</color>
+    <color name="colorPrimaryDarkMonochromatic1">#404040</color>
+    <color name="colorAccentMonochromatic1">#808080</color>
+    <color name="colorBackgroundMonochromatic1">#D0D0D0</color>
+
+    <color name="colorPrimaryMonochromatic2">#6ac9ff</color>
+    <color name="colorPrimaryDarkMonochromatic2">#31b3f2</color>
+    <color name="colorAccentMonochromatic2">#0193cd</color>
+    <color name="colorBackgroundMonochromatic2">#0086bc</color>
 
     <color name="colorPrimaryTriadic">#37ACC8</color>
     <color name="colorPrimaryDarkTriadic">#000000</color>
@@ -18,5 +23,5 @@
     <color name="colorAccentQuadratic">#20D8DF</color>
     <color name="colorBackgroundQuadratic">#8720DF</color>
 
-    <!-- Outras cores do seu aplicativo -->
+
 </resources>
